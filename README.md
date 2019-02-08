@@ -1,3 +1,3 @@
 # Laravel-5.7
 
-Creating an application with Laravel 5.7 that implements basic routing, controller installation via php artisan, views (.blade), and a pgsql database. 
+Creating an application with Laravel 5.7 on a php server that implements basic routing, controller installation, views (.blade), and a pgsql database. 
