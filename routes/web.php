@@ -12,9 +12,24 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $players = [
+        'Aaron Rodgers',
+        'Michael Thomas',
+        'Devante Adams',
+        'James Conner',
+        'Sony Michel',
+        'Curtis Samuel',
+        'Zeurlein',
+        'BALTIMORE'
+    ];
+    return view('welcome', [
+        'players' => $players
+    ]);
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
 
 Route::get('/contact', function () {
     return view('contact');
