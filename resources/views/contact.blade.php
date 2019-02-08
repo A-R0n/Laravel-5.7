@@ -10,9 +10,6 @@
         </style>
     </head>
     <body>
-        <h1>Home Page</h1>
-        <p>
-            <a href="/contact">Contact</a> us to learn more
-        </p>
+        <h1>Contact</h1>
     </body>
 </html>
